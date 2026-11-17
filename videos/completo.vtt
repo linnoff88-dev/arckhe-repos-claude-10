@@ -1,0 +1,894 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.600
+Dez ferramentas gratuitas do GitHub transformam o Claude numa agência inteira.
+
+2
+00:00:03.959 --> 00:00:05.019
+Ele edita vídeo,
+
+3
+00:00:05.019 --> 00:00:06.379
+puxa dados da internet,
+
+4
+00:00:06.379 --> 00:00:08.119
+faz site com rolagem de cinema,
+
+5
+00:00:08.119 --> 00:00:10.119
+cria aplicativo e testa tudo antes de
+
+6
+00:00:10.119 --> 00:00:10.579
+entregar.
+
+7
+00:00:10.579 --> 00:00:12.339
+Neste vídeo eu mostro cada uma,
+
+8
+00:00:12.339 --> 00:00:14.039
+o problema que ela resolve e como
+
+9
+00:00:14.039 --> 00:00:15.239
+ela vira um serviço que uma empresa
+
+10
+00:00:15.239 --> 00:00:15.799
+paga.
+
+11
+00:00:15.799 --> 00:00:16.659
+E no fim,
+
+12
+00:00:16.659 --> 00:00:18.399
+o erro que quase todo mundo comete
+
+13
+00:00:18.399 --> 00:00:19.079
+ao instalar.
+
+14
+00:00:19.079 --> 00:00:20.269
+Vamos direto.
+
+15
+00:00:20.269 --> 00:00:20.759
+Um.
+
+16
+00:00:20.759 --> 00:00:22.179
+HyperFrames, da HeyGen,
+
+17
+00:00:22.179 --> 00:00:22.999
+código aberto.
+
+18
+00:00:22.999 --> 00:00:24.819
+Você descreve o vídeo em português,
+
+19
+00:00:24.819 --> 00:00:26.779
+o Claude escreve a cena em HTML
+
+20
+00:00:26.779 --> 00:00:29.599
+com animação, e o HyperFrames renderiza um
+
+21
+00:00:29.599 --> 00:00:30.839
+MP4 de verdade,
+
+22
+00:00:30.839 --> 00:00:32.439
+no seu computador.
+
+23
+00:00:32.439 --> 00:00:34.039
+Legenda, título animado,
+
+24
+00:00:34.039 --> 00:00:35.399
+gráfico em movimento,
+
+25
+00:00:35.399 --> 00:00:36.599
+propaganda de produto.
+
+26
+00:00:36.599 --> 00:00:38.159
+E não cobra nada por render.
+
+27
+00:00:38.159 --> 00:00:39.799
+Aqui no INEMA a gente usa todo
+
+28
+00:00:39.799 --> 00:00:41.579
+dia: é ele que monta as animações
+
+29
+00:00:41.579 --> 00:00:42.699
+dos nossos vídeos.
+
+30
+00:00:42.699 --> 00:00:44.699
+O serviço: uma academia que quer vinte
+
+31
+00:00:44.699 --> 00:00:47.179
+cortes legendados por mês vira um pacote
+
+32
+00:00:47.179 --> 00:00:48.399
+mensal de conteúdo.
+
+33
+00:00:48.399 --> 00:00:48.879
+Dois.
+
+34
+00:00:48.879 --> 00:00:51.039
+Google Workspace CLI,
+
+35
+00:00:51.039 --> 00:00:52.079
+do próprio Google.
+
+36
+00:00:52.079 --> 00:00:53.719
+É uma ferramenta de linha de comando
+
+37
+00:00:53.719 --> 00:00:55.299
+que dá ao Claude acesso ao Drive,
+
+38
+00:00:55.299 --> 00:00:56.939
+ao Gmail, à Agenda,
+
+39
+00:00:56.939 --> 00:00:59.899
+ao Docs, às Planilhas e às Apresentações.
+
+40
+00:00:59.899 --> 00:01:01.819
+Diferente do conector do aplicativo do Claude,
+
+41
+00:01:01.819 --> 00:01:03.299
+ela funciona no Claude Code,
+
+42
+00:01:03.299 --> 00:01:04.959
+no Codex ou em qualquer agente,
+
+43
+00:01:04.959 --> 00:01:06.679
+e já vem com skills prontas.
+
+44
+00:01:06.679 --> 00:01:08.579
+Você cria um projeto no Google Cloud
+
+45
+00:01:08.579 --> 00:01:09.159
+para o login,
+
+46
+00:01:09.159 --> 00:01:10.859
+e o próprio Claude te guia passo
+
+47
+00:01:10.859 --> 00:01:11.539
+a passo.
+
+48
+00:01:11.539 --> 00:01:13.459
+O serviço: relatório semanal,
+
+49
+00:01:13.459 --> 00:01:15.939
+cobrança e e-mail de acompanhamento automáticos para
+
+50
+00:01:15.939 --> 00:01:18.039
+pequenas empresas, que quase todas já rodam
+
+51
+00:01:18.039 --> 00:01:18.719
+no Google.
+
+52
+00:01:18.719 --> 00:01:19.099
+Três.
+
+53
+00:01:19.099 --> 00:01:21.499
+O servidor MCP da Apify.
+
+54
+00:01:21.499 --> 00:01:22.619
+Instagram,
+
+55
+00:01:22.619 --> 00:01:24.759
+Reddit e muitas lojas bloqueiam o acesso
+
+56
+00:01:24.759 --> 00:01:25.799
+ou só carregam com JavaScript,
+
+57
+00:01:25.799 --> 00:01:27.779
+e o Claude recebe uma página vazia.
+
+58
+00:01:27.779 --> 00:01:29.559
+A Apify liga o Claude a milhares
+
+59
+00:01:29.559 --> 00:01:30.439
+de coletores prontos:
+
+60
+00:01:30.439 --> 00:01:32.219
+Instagram, TikTok, Amazon,
+
+61
+00:01:32.219 --> 00:01:32.739
+Google Maps.
+
+62
+00:01:32.739 --> 00:01:34.879
+Você pede: ache padarias de Porto Alegre
+
+63
+00:01:34.879 --> 00:01:36.419
+no Instagram, com o número de seguidores,
+
+64
+00:01:36.419 --> 00:01:37.859
+e me mostre as que não têm
+
+65
+00:01:37.859 --> 00:01:38.399
+site na bio.
+
+66
+00:01:38.399 --> 00:01:40.439
+Minutos depois, está tudo numa planilha.
+
+67
+00:01:40.439 --> 00:01:41.519
+O conector é aberto;
+
+68
+00:01:41.519 --> 00:01:43.539
+os coletores rodam na nuvem da Apify,
+
+69
+00:01:43.539 --> 00:01:45.059
+e o plano grátis dá cinco dólares
+
+70
+00:01:45.059 --> 00:01:46.379
+de crédito por mês.
+
+71
+00:01:46.379 --> 00:01:46.859
+Quatro.
+
+72
+00:01:46.859 --> 00:01:48.499
+Site com rolagem de cinema.
+
+73
+00:01:48.499 --> 00:01:50.299
+Sabe aqueles sites no estilo da Apple,
+
+74
+00:01:50.299 --> 00:01:51.799
+em que você rola e a página
+
+75
+00:01:51.799 --> 00:01:53.159
+inteira se move como um filme,
+
+76
+00:01:53.159 --> 00:01:53.919
+em camadas?
+
+77
+00:01:53.919 --> 00:01:55.259
+Se você pede um ao Claude,
+
+78
+00:01:55.259 --> 00:01:56.979
+sai uma página genérica com uns textos
+
+79
+00:01:56.979 --> 00:01:57.619
+aparecendo.
+
+80
+00:01:57.619 --> 00:01:59.699
+O Scrollcraft dá ao Claude um motor
+
+81
+00:01:59.699 --> 00:02:00.899
+de rolagem de verdade,
+
+82
+00:02:00.899 --> 00:02:02.259
+regras de profundidade,
+
+83
+00:02:02.259 --> 00:02:03.899
+espaçamento e tipografia,
+
+84
+00:02:03.899 --> 00:02:05.619
+e um verificador que tira print da
+
+85
+00:02:05.619 --> 00:02:07.659
+rolagem e corrige sozinho antes de você
+
+86
+00:02:07.659 --> 00:02:08.099
+ver.
+
+87
+00:02:08.099 --> 00:02:09.839
+Aqui no INEMA a gente fez o
+
+88
+00:02:09.839 --> 00:02:11.399
+nosso, o Site em Movimento.
+
+89
+00:02:11.399 --> 00:02:13.279
+Landing page simples virou commodity;
+
+90
+00:02:13.279 --> 00:02:15.659
+experiência de rolagem sob medida ainda se
+
+91
+00:02:15.659 --> 00:02:16.699
+cobra caro.
+
+92
+00:02:16.699 --> 00:02:17.179
+Cinco.
+
+93
+00:02:17.179 --> 00:02:17.759
+Humanizer.
+
+94
+00:02:17.759 --> 00:02:19.139
+Ele tira a cara de robô do
+
+95
+00:02:19.139 --> 00:02:20.519
+texto que o Claude escreve.
+
+96
+00:02:20.519 --> 00:02:21.959
+Foi feito em cima do guia que
+
+97
+00:02:21.959 --> 00:02:23.739
+os editores da Wikipédia usam para pegar
+
+98
+00:02:23.739 --> 00:02:25.759
+texto gerado por inteligência artificial,
+
+99
+00:02:25.759 --> 00:02:27.059
+então conhece os vícios:
+
+100
+00:02:27.059 --> 00:02:27.959
+o não é isso,
+
+101
+00:02:27.959 --> 00:02:29.839
+é aquilo; tudo em grupos de três;
+
+102
+00:02:29.839 --> 00:02:30.899
+palavras de exagero.
+
+103
+00:02:30.899 --> 00:02:32.519
+Você cola o texto do site ou
+
+104
+00:02:32.519 --> 00:02:33.679
+o e-mail de prospecção e pede:
+
+105
+00:02:33.679 --> 00:02:34.339
+humaniza.
+
+106
+00:02:34.339 --> 00:02:35.859
+Ele mantém o que você disse e
+
+107
+00:02:35.859 --> 00:02:37.219
+tira o que faz a pessoa desconfiar
+
+108
+00:02:37.219 --> 00:02:38.079
+e passar direto.
+
+109
+00:02:38.079 --> 00:02:39.519
+É o mais simples de todos para
+
+110
+00:02:39.519 --> 00:02:40.119
+começar.
+
+111
+00:02:40.339 --> 00:02:42.459
+Até aqui, ferramentas para conquistar o cliente.
+
+112
+00:02:42.459 --> 00:02:43.999
+As próximas são para quando ele pede
+
+113
+00:02:43.999 --> 00:02:44.779
+algo de verdade,
+
+114
+00:02:44.779 --> 00:02:46.339
+como uma empresa de limpeza que quer
+
+115
+00:02:46.339 --> 00:02:48.239
+agendamento online com sinal pago.
+
+116
+00:02:48.239 --> 00:02:48.659
+Seis.
+
+117
+00:02:48.659 --> 00:02:50.879
+Agent Skills, do engenheiro Addy Osmani.
+
+118
+00:02:50.879 --> 00:02:51.879
+Em sessão longa,
+
+119
+00:02:51.879 --> 00:02:53.539
+o Claude esquece o que foi combinado,
+
+120
+00:02:53.539 --> 00:02:54.919
+porque a conversa vai sendo resumida.
+
+121
+00:02:54.919 --> 00:02:56.359
+Aqui o plano sai do chat e
+
+122
+00:02:56.359 --> 00:02:57.379
+vai para arquivos:
+
+123
+00:02:57.379 --> 00:02:59.659
+barra spec escreve a especificação com você,
+
+124
+00:02:59.659 --> 00:03:01.659
+barra plan quebra em tarefas pequenas,
+
+125
+00:03:01.659 --> 00:03:03.459
+e barra build executa uma por vez,
+
+126
+00:03:03.459 --> 00:03:04.539
+conferindo cada uma.
+
+127
+00:03:04.539 --> 00:03:06.679
+A especificação ainda pergunta o que você
+
+128
+00:03:06.679 --> 00:03:08.459
+não lembraria: agendamento duplo,
+
+129
+00:03:08.459 --> 00:03:10.359
+reembolso, cliente em outro fuso.
+
+130
+00:03:10.359 --> 00:03:12.199
+E você entrega esse documento ao cliente
+
+131
+00:03:12.199 --> 00:03:13.399
+antes de construir.
+
+132
+00:03:13.399 --> 00:03:13.779
+Sete.
+
+133
+00:03:13.779 --> 00:03:15.099
+As skills oficiais da Expo,
+
+134
+00:03:15.099 --> 00:03:16.219
+para aplicativo de celular.
+
+135
+00:03:16.219 --> 00:03:18.019
+Da ideia a um app rodando no
+
+136
+00:03:18.019 --> 00:03:18.959
+seu iPhone numa tarde,
+
+137
+00:03:18.959 --> 00:03:19.699
+até usando Windows.
+
+138
+00:03:19.699 --> 00:03:21.999
+Elas trazem as regras atuais para entrar
+
+139
+00:03:21.999 --> 00:03:23.479
+na loja da Apple e uma lista
+
+140
+00:03:23.479 --> 00:03:24.539
+do que deixa um app com cara
+
+141
+00:03:24.539 --> 00:03:25.459
+de feito por robô.
+
+142
+00:03:25.459 --> 00:03:27.619
+Uma dica: peça ao Claude para usar
+
+143
+00:03:27.619 --> 00:03:28.939
+as skills da Expo pelo nome,
+
+144
+00:03:28.939 --> 00:03:30.899
+porque nem sempre elas carregam sozinhas.
+
+145
+00:03:30.899 --> 00:03:32.619
+E para publicar na App Store,
+
+146
+00:03:32.619 --> 00:03:34.714
+a conta de desenvolvedor da Apple custa
+
+147
+00:03:34.714 --> 00:03:36.059
+noventa e nove dólares por ano.
+
+148
+00:03:36.059 --> 00:03:36.399
+Oito.
+
+149
+00:03:36.399 --> 00:03:38.619
+As skills oficiais da Supabase e da
+
+150
+00:03:38.619 --> 00:03:40.139
+Stripe, para o lado de trás do
+
+151
+00:03:40.139 --> 00:03:42.519
+app: login, banco de dados e pagamento.
+
+152
+00:03:42.519 --> 00:03:44.219
+Com elas, o Claude segue as regras
+
+153
+00:03:44.219 --> 00:03:45.379
+de segurança de cada empresa,
+
+154
+00:03:45.379 --> 00:03:47.439
+como garantir que cada usuário só veja
+
+155
+00:03:47.439 --> 00:03:49.119
+os próprios dados e conferir que o
+
+156
+00:03:49.119 --> 00:03:50.699
+pagamento veio mesmo da Stripe.
+
+157
+00:03:50.699 --> 00:03:51.479
+Duas dicas.
+
+158
+00:03:51.479 --> 00:03:53.759
+Da Stripe, instale só a skill de
+
+159
+00:03:53.759 --> 00:03:55.699
+boas práticas, não o plugin inteiro.
+
+160
+00:03:55.699 --> 00:03:57.399
+E deixe o conector da Supabase só
+
+161
+00:03:57.399 --> 00:03:58.079
+de leitura.
+
+162
+00:03:58.079 --> 00:03:59.219
+Antes de lançar,
+
+163
+00:03:59.219 --> 00:04:01.479
+entre como um usuário de teste e
+
+164
+00:04:01.479 --> 00:04:03.179
+confirme que você não enxerga os dados
+
+165
+00:04:03.179 --> 00:04:04.079
+dos outros.
+
+166
+00:04:04.079 --> 00:04:04.459
+Nove.
+
+167
+00:04:04.459 --> 00:04:05.359
+O Claude diz:
+
+168
+00:04:05.359 --> 00:04:06.459
+está funcionando.
+
+169
+00:04:06.459 --> 00:04:08.339
+Mas será que ele clicou nos botões?
+
+170
+00:04:08.339 --> 00:04:09.979
+O Playwright CLI,
+
+171
+00:04:09.979 --> 00:04:12.699
+da Microsoft, abre um navegador de verdade,
+
+172
+00:04:12.699 --> 00:04:14.359
+clica no seu app como um cliente
+
+173
+00:04:14.359 --> 00:04:16.039
+e grava testes que você roda de
+
+174
+00:04:16.039 --> 00:04:17.019
+novo quando quiser.
+
+175
+00:04:17.019 --> 00:04:18.179
+Como é linha de comando,
+
+176
+00:04:18.179 --> 00:04:19.539
+e não MCP,
+
+177
+00:04:19.539 --> 00:04:21.319
+ele não despeja a página inteira no
+
+178
+00:04:21.319 --> 00:04:23.519
+contexto: gasta menos e é mais rápido.
+
+179
+00:04:23.519 --> 00:04:25.319
+E junto vem o Claude Security,
+
+180
+00:04:25.319 --> 00:04:27.439
+da Anthropic: uma equipe de agentes procura
+
+181
+00:04:27.439 --> 00:04:28.239
+falhas no código,
+
+182
+00:04:28.239 --> 00:04:29.979
+outros tentam provar que eles estão errados,
+
+183
+00:04:29.979 --> 00:04:31.539
+e sobra um relatório simples com as
+
+184
+00:04:31.539 --> 00:04:31.879
+correções.
+
+185
+00:04:31.879 --> 00:04:33.559
+O cliente não liga para teste;
+
+186
+00:04:33.559 --> 00:04:35.199
+liga para o formulário funcionar e os
+
+187
+00:04:35.199 --> 00:04:36.406
+dados não vazarem.
+
+188
+00:04:36.406 --> 00:04:36.892
+Dez.
+
+189
+00:04:36.892 --> 00:04:37.379
+OpenSEO.
+
+190
+00:04:37.379 --> 00:04:38.479
+Com o site no ar,
+
+191
+00:04:38.479 --> 00:04:39.699
+as pessoas precisam encontrar.
+
+192
+00:04:39.699 --> 00:04:41.239
+Ele liga o Claude a dados reais
+
+193
+00:04:41.239 --> 00:04:43.559
+de palavras-chave, de posição no Google e
+
+194
+00:04:43.559 --> 00:04:44.119
+de links.
+
+195
+00:04:44.119 --> 00:04:45.759
+Em vez de conselho genérico,
+
+196
+00:04:45.759 --> 00:04:47.219
+ele diz a página exata e a
+
+197
+00:04:47.219 --> 00:04:49.019
+palavra exata onde você está.
+
+198
+00:04:49.019 --> 00:04:51.199
+Agências usam esse tipo de auditoria para
+
+199
+00:04:51.199 --> 00:04:53.399
+fechar contrato mensal de SEO.
+
+200
+00:04:53.399 --> 00:04:55.839
+Atenção: os créditos de teste são poucos
+
+201
+00:04:55.839 --> 00:04:56.799
+e, por padrão,
+
+202
+00:04:56.799 --> 00:04:58.719
+os seus dados ficam no servidor deles,
+
+203
+00:04:58.719 --> 00:05:00.099
+a não ser que você hospede.
+
+204
+00:05:00.099 --> 00:05:02.219
+Aqui no INEMA a gente tem o
+
+205
+00:05:02.219 --> 00:05:03.719
+inemaSEO, que faz essa análise.
+
+206
+00:05:03.719 --> 00:05:05.179
+E o erro que eu prometi:
+
+207
+00:05:05.179 --> 00:05:06.259
+instalar as dez hoje.
+
+208
+00:05:06.259 --> 00:05:07.439
+Se alguma coisa quebrar,
+
+209
+00:05:07.439 --> 00:05:08.879
+você não sabe qual foi.
+
+210
+00:05:08.879 --> 00:05:10.339
+Escolha a que resolve o problema que
+
+211
+00:05:10.339 --> 00:05:11.039
+você tem agora.
+
+212
+00:05:11.039 --> 00:05:12.659
+Na dúvida, comece pelo Humanizer,
+
+213
+00:05:12.659 --> 00:05:13.519
+que é o mais simples,
+
+214
+00:05:13.519 --> 00:05:14.799
+ou pela Google CLI,
+
+215
+00:05:14.799 --> 00:05:15.779
+ou pela Apify.
+
+216
+00:05:15.779 --> 00:05:17.899
+E lembre: ninguém paga por um repositório
+
+217
+00:05:17.899 --> 00:05:19.499
+do GitHub, eles são grátis para todo
+
+218
+00:05:19.499 --> 00:05:19.979
+mundo.
+
+219
+00:05:19.979 --> 00:05:21.299
+O que você vende é o que
+
+220
+00:05:21.299 --> 00:05:22.099
+constrói em volta,
+
+221
+00:05:22.099 --> 00:05:23.719
+e que resolve o problema do cliente.
+
+222
+00:05:23.719 --> 00:05:25.359
+Os links das dez e os cursos
+
+223
+00:05:25.359 --> 00:05:27.206
+grátis estão no inema ponto club.
+
